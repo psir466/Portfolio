@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  xmlns="http://www.w3.org/1999/html"
+  xmlns="http://www.w3.org/1999/html"
+  xmlns="http://www.w3.org/1999/html"
+>
+  <head>
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="mysStyle.css" />
+  </head>
+  <body>
+    <header class="monHeader" id="home">
+      <h1 id="presentation">John Doe, Full stack developer</h1>
+    </header>
+
+    <nav>
+      <ul id="barre" class="barre">
+        <li class="navelement">
+          <a href="#about" class="styled-link">About me</a>
+        </li>
+        <li class="navelement">
+          <a href="#portfolio" class="styled-link">Portofio</a>
+        </li>
+        <li class="navelement">
+          <a href="#contacts" class="styled-link">Contacts</a>
+        </li>
+        <li class="navelement navelementHome">
+          <a href="#home" class="styled-link2">Home</a>
+        </li>
+        <li id="croix" class="navelement navCroix">X</li>
+      </ul>
+
+      <div class="hamburger">
+        <image id="menuHamburger" src="image/menu.png" alt="mon image" />
+      </div>
+    </nav>
+
+    <section id="about">
+      <div class="pournav"></div>
+      <div id="aboutDiv">
+        <h2 id="titreAbout">About me</h2>
+        <div>
+          <image id="imageAbout" src="image/image.jpg" alt="mon image" />
+        </div>
+        <div id="posLogo">
+          <image id="logoAbout" src="image/logo.png" alt="mon image" />
+        </div>
+        <div>
+          <p id="detailAbout">
+            Hello, i am John Doe and I am a Full Stack developer. JavaSript,
+            HTML, CSS, Java, Spring, Angular, ...
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="pournav"></div>
+      <h2 id="portfolioTitre">Portfolio</h2>
+      <div id="portfolioDiv">
+        <div class="projet">
+          <image
+            class="img-project"
+            src="image/project1.png"
+            alt="mon projet1"
+          />
+          <p class="comProjet">balabala truc bgahemo</p>
+          <button class="open-window" id="popupprojet1">Info</button>
+        </div>
+        <div class="projet">
+          <image
+            class="img-project"
+            src="image/project2.png"
+            alt="mon projet2"
+          />
+          <p class="comProjet">cacknkzlnkjznkjnzejkckejjnc</p>
+          <button class="open-window" id="popupprojet2">Info</button>
+        </div>
+        <div class="window" id="windowproject1">
+          <h1>My Project 1</h1>
+          <p>czejuh ckzjhc jkzehc kjzeh kjchzek jchkjze hckjzvev nkjefrnv</p>
+          <button id="closeprojet1">Close</button>
+        </div>
+        <div class="window" id="windowproject2">
+          <h1>My Project 2</h1>
+          <p>czejuh ckzjhc jkzehc kjzeh kjchzek jchkjze hckjzvev nkjefrnv</p>
+          <button id="closeprojet2">Close</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <div class="pournav"></div>
+      <h2 id="contactTitre">Contacts</h2>
+      <p class="detailContact">
+        You can contact me at phone number
+        <a href="tel:+1234567890">123456780</a>
+      </p>
+      <p class="detailContact">
+        or at <a href="mailto:test@test.fr">test@test.fr</a>
+      </p>
+      <div class="rs">
+        <div class="logors">
+          <image src="image/facebook.svg" alt="mon projet1" />
+        </div>
+        <div class="logors">
+          <image src="image/instagram 1.svg" alt="mon projet1" />
+        </div>
+        <div class="logors">
+          <image src="image/twitter.svg" alt="mon projet1" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="detailFooter">Machin Truc</p>
+      <p class="detailFooter">2021</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
